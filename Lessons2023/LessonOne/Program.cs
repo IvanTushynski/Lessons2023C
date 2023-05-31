@@ -5,11 +5,15 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        int a, b;
-        a = 2;
-        b = 3;
-        int sum = a + b;
+        string name = "Володя";
+        int age = 33;
+        bool isEmployed = false;
+        double weight = 78.65;
 
-        Console.WriteLine(sum);
+        Console.WriteLine($"Имя: {name}");
+        Console.WriteLine("Имя: " + name);
+        Console.WriteLine($"Возраст: {age}");
+        Console.WriteLine($"Вес: {weight}");
+        Console.WriteLine($"Работает: {isEmployed}");
     }
 }
