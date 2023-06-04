@@ -4,21 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons2023.LessonOne
+namespace Lessons2023.LessonOne.One
 {
     internal class Test
     {
 
-       int testInt;
+        int testInt;
 
         public int setTest(int testInt)
         {
             return testInt;
         }
 
-        public int getTestInt() {
-        
-            this.testInt = 2;
+        public int getTestInt()
+        {
+
+            testInt = 2342;
             return testInt;
         }
 
