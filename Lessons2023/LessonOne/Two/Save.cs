@@ -38,9 +38,15 @@ namespace Lessons2023.LessonOne.Two
             {
                 Console.WriteLine(line);
                 line = streamReader.ReadLine();
+                Thread.Sleep(1000);
             }
-            streamReader.Close();
-            Console.ReadLine();
+            Console.WriteLine("Write ~end~ to end program!");
+            String end = Console.ReadLine();
+            if (end == "end")
+            {
+                Console.Write("Complete!");
+                streamReader.Close();
+            }
         }
 
     }
