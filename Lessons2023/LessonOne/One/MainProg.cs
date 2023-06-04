@@ -14,6 +14,8 @@ internal class MainProg
         int[] terstMassive = { 1, 2, 3};
         string[] testMassive2 = {"asd", "asdasd", "asdasd"};
 
+        int[][] testTeoMerMassive = {{1, 2, 3, 4, 5, 6, 7},{1, 2, 3},{2, 3, 4}};
+
         Console.WriteLine(terstMassive.GetType());
         Console.WriteLine(testMassive2.GetType());
         Console.WriteLine($"test massive {terstMassive[2]}");
