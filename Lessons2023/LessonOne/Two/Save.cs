@@ -12,7 +12,8 @@ namespace Lessons2023.LessonOne.Two
 
         public void saveDataLevel()
         {
-            try {
+            try
+            {
                 Console.Write("Recording.");
                 Thread.Sleep(1000);
                 Console.Write(".");
@@ -30,37 +31,40 @@ namespace Lessons2023.LessonOne.Two
                 sw.WriteLine("Test write testtwo!!");
                 sw.Close();
             }
-            catch(Exception ex) { 
+            catch (Exception ex)
+            {
                 Console.WriteLine(ex.Message);
             }
         }
 
         public void loadDataLevel()
         {
-            try {
-            StreamReader streamReader = new StreamReader("D:\\IT\\С#\\projects\\Lessons2023\\Lessons2023\\LessonOne\\Two\\Text.txt");
-            string line = streamReader.ReadLine();
-            while (line != null)
+            try
             {
-                Console.WriteLine(line);
-                line = streamReader.ReadLine();
-                Thread.Sleep(1000);
+                StreamReader streamReader = new StreamReader("D:\\IT\\С#\\projects\\Lessons2023\\Lessons2023\\LessonOne\\Two\\Text.txt");
+                string line = streamReader.ReadLine();
+                while (line != null)
+                {
+                    Console.WriteLine(line);
+                    line = streamReader.ReadLine();
+                    Thread.Sleep(1000);
+                }
+                Console.WriteLine("Write ~end~ to end program!");
+                String end = Console.ReadLine();
+                if (end == "end")
+                {
+                    Console.Write("Complete!");
+                    streamReader.Close();
+                }
+                else
+                {
+                    Console.Write("Do not complete!");
+                    streamReader.Close();
+                }
             }
-            Console.WriteLine("Write ~end~ to end program!");
-            String end = Console.ReadLine();
-            if (end == "end")
+            catch (Exception e)
             {
-                Console.Write("Complete!");
-                streamReader.Close();
-            }
-            else
-            {
-                Console.Write("Do not complete!");
-                streamReader.Close();
-            }
-            }
-            catch(Exception e) {
-            Console.WriteLine(e.Message);
+                Console.WriteLine(e.Message);
             }
 
 

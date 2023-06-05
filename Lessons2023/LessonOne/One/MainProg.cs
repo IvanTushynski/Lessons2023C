@@ -24,22 +24,22 @@ internal class MainProg
         massives.getMassiveDouble();
         massives.getMassiveDoubleSecond();
 
-        int[] terstMassive = {1, 2, 3};
-        string[] testMassive2 = {"asd", "asdasd", "asdasd"};
+        int[] terstMassive = { 1, 2, 3 };
+        string[] testMassive2 = { "asd", "asdasd", "asdasd" };
 
         //-------------------------------MASSIVE-DOUBLE-------------------------------------
-        int[,] testTeoMerMassive = new int[2,3];
+        int[,] testTeoMerMassive = new int[2, 3];
         testTeoMerMassive[1, 2] = 3;
         Console.WriteLine($"Massive1.2: {testTeoMerMassive[1, 2]}");
 
 
-        int[,] array3D = new int[,] { 
-            { 1, 2, 3 }, 
-            { 4, 5, 6 } 
+        int[,] array3D = new int[,] {
+            { 1, 2, 3 },
+            { 4, 5, 6 }
         };
 
 
-        Console.WriteLine($"test massive3d {array3D[1,1]}");
+        Console.WriteLine($"test massive3d {array3D[1, 1]}");
 
 
 
@@ -59,6 +59,11 @@ internal class MainProg
         Console.WriteLine($"-----------------------------------------");
         Console.WriteLine($"-------------------BOOLEAN----------------------");
         Bool testbool = new Bool();
+        testbool.GetTestAttack();
+        testbool.GetTestAttack();
+        testbool.GetTestAttack();
+        testbool.GetTestAttack();
+        testbool.GetTestAttack();
         testbool.GetTestAttack();
 
         //Save save = new Save();
