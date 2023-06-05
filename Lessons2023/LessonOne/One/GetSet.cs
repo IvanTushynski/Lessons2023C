@@ -6,20 +6,18 @@ using System.Threading.Tasks;
 
 namespace Lessons2023.LessonOne.One
 {
-    internal class Test
+    internal class GetSet
     {
 
-        int testInt;
+        private int testInt;
 
-        public int setTest(int testInt)
+        public void SetTestInt(int testInt)
         {
-            return testInt;
+            this.testInt = testInt;
         }
 
-        public int getTestInt()
+        public int GetTestInt()
         {
-
-            testInt = 2342;
             return testInt;
         }
 

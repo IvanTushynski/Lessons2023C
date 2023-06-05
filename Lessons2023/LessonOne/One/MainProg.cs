@@ -19,6 +19,11 @@ internal class MainProg
         Console.WriteLine($"-----------------------------------------");
 
         //-------------------------------MASSIVE-ONE-------------------------------------
+        Massives massives = new Massives();
+
+        massives.getMassiveDouble();
+        massives.getMassiveDoubleSecond();
+
         int[] terstMassive = {1, 2, 3};
         string[] testMassive2 = {"asd", "asdasd", "asdasd"};
 
@@ -30,7 +35,8 @@ internal class MainProg
 
         int[,] array3D = new int[,] { 
             { 1, 2, 3 }, 
-            { 4, 5, 6 } };
+            { 4, 5, 6 } 
+        };
 
 
         Console.WriteLine($"test massive3d {array3D[1,1]}");
@@ -45,14 +51,20 @@ internal class MainProg
         Console.WriteLine($"Вес: {weight}");
         Console.WriteLine($"Test Decimal: {testOneDecimal}");
 
-        //-----------------------------CALL--METHODS--------------------------------------
+        //-----------------------------CALL--METHODS--GET--SET----------------------------------
+        Console.WriteLine($"-----------------------------------------");
+        GetSet test = new GetSet();
+        test.SetTestInt(3);
+        Console.WriteLine(test.GetTestInt());
+        Console.WriteLine($"-----------------------------------------");
+        Console.WriteLine($"-------------------BOOLEAN----------------------");
+        Bool testbool = new Bool();
+        testbool.GetTestAttack();
 
-        Test test = new Test();
+        //Save save = new Save();
 
-        Save save = new Save();
-
-        save.saveDataLevel();
-        save.loadDataLevel();
+        //save.saveDataLevel();
+        //save.loadDataLevel();
 
 
     }
