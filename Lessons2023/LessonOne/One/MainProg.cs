@@ -68,7 +68,7 @@ internal class MainProg
         testbool.GetTestAttack();
 
         //Random----------------------------
-        Random dice = new Random();
+        Random dice = new Random();//--------call----random-------
         int rollOne = dice.Next( 2, 20 );
         Console.WriteLine(rollOne);
 
