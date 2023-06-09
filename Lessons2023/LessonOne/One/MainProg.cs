@@ -1,5 +1,6 @@
 ﻿using Lessons2023.LessonOne.One;
 using Lessons2023.LessonOne.Two;
+using System.Collections;
 using System.Diagnostics.CodeAnalysis;
 
 internal class MainProg
@@ -65,6 +66,11 @@ internal class MainProg
         testbool.GetTestAttack();
         testbool.GetTestAttack();
         testbool.GetTestAttack();
+
+        //Random----------------------------
+        Random dice = new Random();
+        int rollOne = dice.Next( 2, 20 );
+        Console.WriteLine(rollOne);
 
         //Save save = new Save();
 
