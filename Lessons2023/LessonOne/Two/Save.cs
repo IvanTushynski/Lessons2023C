@@ -33,7 +33,7 @@ namespace Lessons2023.LessonOne.Two
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("Don`t Working");
             }
         }
 
@@ -64,7 +64,7 @@ namespace Lessons2023.LessonOne.Two
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine("Don`t Working");
             }
 
 
