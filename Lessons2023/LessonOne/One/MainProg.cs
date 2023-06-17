@@ -77,6 +77,22 @@ internal class MainProg
         //save.saveDataLevel();
         //save.loadDataLevel();
 
+        Console.WriteLine($"-------------------INCREMENTS----------------------");
 
+        int aTo = 2;
+        aTo += aTo + 1;
+        Console.WriteLine(aTo);
+
+        int firstTestNum = 1;
+        int secondTestNum = 2;
+        int threedTestNum = 3;
+
+        if (firstTestNum == secondTestNum){
+            threedTestNum = 4;
+        }
+        else if (secondTestNum != firstTestNum) {
+            threedTestNum = 5;
+        }
+        Console.WriteLine($"threedTestNum: { threedTestNum}");
     }
 }
