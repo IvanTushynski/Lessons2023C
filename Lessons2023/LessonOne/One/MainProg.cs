@@ -1,4 +1,5 @@
-﻿using Lessons2023.LessonOne.One;
+﻿using Lessons2023.LessonOne.MicrosoftLearn;
+using Lessons2023.LessonOne.One;
 using Lessons2023.LessonOne.Two;
 using System.Collections;
 using System.Diagnostics.CodeAnalysis;
@@ -94,5 +95,11 @@ internal class MainProg
             threedTestNum = 5;
         }
         Console.WriteLine($"threedTestNum: { threedTestNum}");
+
+        //-----------------------------MICROSOFT--LEARNING--------------------------------
+        Console.WriteLine($"-------------------MICROSOFT--LEARNING----------------------");
+        MicrosoftOne microsoftone = new MicrosoftOne();
+        microsoftone.MicrosoftLearn();
+
     }
 }
