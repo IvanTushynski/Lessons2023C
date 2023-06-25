@@ -1,4 +1,5 @@
-﻿using Lessons2023.LessonOne.MicrosoftLearn;
+﻿using Lessons2023.CodeWars;
+using Lessons2023.LessonOne.MicrosoftLearn;
 using Lessons2023.LessonOne.One;
 using Lessons2023.LessonOne.Two;
 using System.Collections;
@@ -113,5 +114,10 @@ internal class MainProg
         Lists lists = new Lists();
 
         lists.ListPeoples();
+
+        //-----------------------------CODEWARS----------------------------------
+        Console.WriteLine($"-------------------CODEWARS----------------------");
+        Kata kata = new Kata();
+        kata.TesttestNum();
     }
 }
