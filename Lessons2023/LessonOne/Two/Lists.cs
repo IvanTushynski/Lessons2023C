@@ -32,6 +32,11 @@ namespace Lessons2023.LessonOne.Two
             {
                 Console.WriteLine(peoples[i]);
             }
+            Console.WriteLine("-----------------------------------------");
+            foreach ( string people in peoples )
+            {
+                Console.WriteLine(people);
+            }
         }
 
     };
