@@ -26,6 +26,12 @@ namespace Lessons2023.LessonOne.Two
             Console.WriteLine($"Name five: {peoples[4]}");
             Console.WriteLine($"Name added six: {peoples[6]}");
             Console.WriteLine($"Names List Count: {peoples.Count}");
+
+            Console.WriteLine("-----------------------------------------");
+            for ( int i = 0; i < peoples.Count; i++)
+            {
+                Console.WriteLine(peoples[i]);
+            }
         }
 
     };

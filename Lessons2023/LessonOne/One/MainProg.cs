@@ -109,8 +109,9 @@ internal class MainProg
 
         //-----------------------------Lists----------------------------------
         Console.WriteLine($"-------------------Lists----------------------");
+        
         Lists lists = new Lists();
-        lists.ListPeoples();
 
+        lists.ListPeoples();
     }
 }
