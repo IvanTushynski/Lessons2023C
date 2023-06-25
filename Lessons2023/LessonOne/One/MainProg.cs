@@ -101,5 +101,16 @@ internal class MainProg
         MicrosoftOne microsoftone = new MicrosoftOne();
         microsoftone.MicrosoftLearn();
 
+        object a = 3;
+        object b = "loh";
+        object c = 34.67m;
+
+        Console.WriteLine(a + " " + b + " " + c);
+
+        //-----------------------------Lists----------------------------------
+        Console.WriteLine($"-------------------Lists----------------------");
+        Lists lists = new Lists();
+        lists.ListPeoples();
+
     }
 }
