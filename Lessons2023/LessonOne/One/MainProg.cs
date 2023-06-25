@@ -54,7 +54,7 @@ internal class MainProg
         Console.WriteLine($"Test Decimal: {testOneDecimal}");
 
         //-----------------------------CALL--METHODS--GET--SET----------------------------------
-        Console.WriteLine($"-----------------------------------------");
+        Console.WriteLine($"-----------------CALL--METHODS--GET--SET---------------");
         GetSet test = new GetSet();
         test.SetTestInt(3);
         Console.WriteLine(test.GetTestInt());
